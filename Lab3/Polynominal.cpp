@@ -3,25 +3,7 @@
 #include <vector>
 #include <sstream>
 
-/*
-vov operator<<(vov first_vov, vov second_vov)
-{
-	int first_iterator = first_vov.size();
-	int second_iterator = 0;
-	std::cout << first_iterator << std::endl;
-	for (int i = 0; i < first_iterator; i++)
-	{
-		second_iterator = first_vov[i].size();
-		std::cout << second_iterator << std::endl;
-		for (int j = 0; j < second_iterator; j++)
-		{
-			first_vov[i][j] = second_vov[i][j];
-			std::cout << second_vov[i][j] << std::endl;
-		}
-	}
-	return first_vov;
-}
-*/
+
 bool is_zero_condition(std::vector<float> part)
 {
 	return part[1] == 0;
